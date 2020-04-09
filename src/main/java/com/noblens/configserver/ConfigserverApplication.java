@@ -9,7 +9,7 @@ import org.springframework.cloud.config.server.EnableConfigServer;
 @SpringBootApplication
 @EnableConfigServer
 @EnableConfigurationProperties
-@EnableDiscoveryClient
+//@EnableDiscoveryClient
 public class ConfigserverApplication {
 
 	public static void main(String[] args) {
